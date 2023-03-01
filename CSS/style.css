@@ -60,7 +60,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  height: 60px;
+  height: 70px;
   max-width: 1140px;
   display: flex;
   justify-content: space-between;
@@ -68,7 +68,7 @@ header {
 }
 
 #topoLogo {
-  height: 50px;
+  height: 60px;
 }
 
 #menu {
@@ -79,10 +79,6 @@ header {
   margin-left: 20px;
   color: white;
   transition: all 0.3s ease;
-}
-
-#menu li:hover {
-  color: black;
 }
 
 main {
@@ -144,7 +140,7 @@ main {
   border: none;
   cursor: pointer;
   font-weight: 600;
-  color: #000;
+  color: white;
   display: inline-block;
   text-transform: uppercase;
   transition: all 0.3s ease;
@@ -212,7 +208,7 @@ main {
   border: none;
   cursor: pointer;
   font-weight: 600;
-  color: black;
+  color: white;
   display: inline-block;
   text-transform: uppercase;
   transition: all 0.3s ease;
@@ -267,8 +263,7 @@ span {
   border-radius: 25px;
   border: none;
   cursor: pointer;
-  font-weight: 600;
-  color: #000;
+  color: white;
   display: inline-block;
   transition: all 0.3s ease;
 }
@@ -377,10 +372,6 @@ footer {
 #rodapeText p {
   color: white;
   transition: all 0.3s ease;
-}
-
-#rodapeText p:hover {
-  color: #000;
 }
 
 #rodapeIcon {
