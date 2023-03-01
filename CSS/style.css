@@ -176,7 +176,7 @@ main {
   width: 50%;
   max-width: 1140px;
   overflow: hidden;
-  background-image: url(/img/banner2.jpg);
+  background-image: url(../img/banner2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
