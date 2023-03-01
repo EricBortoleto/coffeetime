@@ -1,0 +1,396 @@
+/* Smartphones pequenos 320px - 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+}
+
+/* Smartphones maiores e pequenos tablets 481px - 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+/* Tablets 769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+/* Desktops e laptops 1025px - 1200px */
+@media (min-width: 1025px) and (max-width: 1200px) {
+}
+
+/* Monitores grandes 1201px - 1600px */
+@media (min-width: 1201px) and (max-width: 1600px) {
+}
+/* Monitores muito grandes acima de 1600px */
+@media (min-width: 1601px) {
+}
+
+html body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #383838;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  line-height: 1.3;
+}
+
+header {
+  background-color: #5a3e33;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+#topo {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 60px;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#topoLogo {
+  height: 50px;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu li {
+  margin-left: 20px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+#menu li:hover {
+  color: black;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+}
+
+#containerHead {
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 440px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#conteudoHead {
+  height: 440px;
+  width: 50%;
+  max-width: 1140px;
+  overflow: hidden;
+  background-image: url(../img/banner.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#textHead {
+  height: 100%;
+  max-width: 570px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#textHead h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+#textHead p {
+  margin-bottom: 20px;
+  max-width: 100%;
+  color: #555;
+}
+
+.textHeadBtn {
+  background: #694d40;
+  padding: 8px 25px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #000;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.textHeadBtn:hover {
+  background: #927766;
+}
+
+#titleMid {
+  color: #000;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#containerMid {
+  background-color: white;
+  width: 100%;
+  height: 440px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#conteudoMid {
+  height: 440px;
+  width: 50%;
+  max-width: 1140px;
+  overflow: hidden;
+  background-image: url(/img/banner2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#textMid {
+  height: 100%;
+  max-width: 570px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#textMid h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+#textMid p {
+  margin-bottom: 20px;
+  max-width: 100%;
+  color: #555;
+}
+
+.textMidBtn {
+  background-color: #694d40;
+  padding: 8px 25px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: black;
+  display: inline-block;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.textMidBtn:hover {
+  background-color: #927766;
+}
+
+#titleLow {
+  color: #000;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#containerLow {
+  background-color: white;
+  height: 440px;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items {
+  height: 440px;
+  width: 20%;
+}
+
+span {
+  font-weight: bold;
+}
+
+.items h4 {
+  margin-top: 20px;
+  color: #000;
+}
+
+.items img {
+  width: 100%;
+}
+
+.items p {
+  margin: 25px 0;
+}
+
+.itemsBtn {
+  background-color: #694d40;
+  padding: 4px 12px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: #000;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.itemsBtn:hover {
+  background-color: #927766;
+}
+
+#titleSub {
+  color: #000;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#containerSub {
+  height: 440px;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#conteudoSub {
+  height: 440px;
+  width: 33%;
+}
+
+#conteudoSub img {
+  width: 100%;
+}
+
+#conteudoSub2 {
+  height: 440px;
+  width: 33%;
+  display: flex;
+  align-items: center;
+}
+
+#conteudoSub2 img {
+  width: 100%;
+}
+
+#conteudoSub3 {
+  height: 440px;
+  width: 33%;
+  display: flex;
+  align-items: flex-end;
+}
+
+#conteudoSub3 img {
+  width: 100%;
+}
+
+#textSub {
+  background-color: white;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#textSub p {
+  color: #555;
+  width: 70%;
+  text-align: justify;
+}
+
+footer {
+  background-color: #5a3e33;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#rodape {
+  position: relative;
+  height: 120px;
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rodapeImg {
+  height: 100px;
+  width: 20%;
+}
+
+#rodapeLogo {
+  height: 100px;
+}
+
+#rodapeText {
+  height: 100px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#rodapeText p {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+#rodapeText p:hover {
+  color: #000;
+}
+
+#rodapeIcon {
+  height: 100px;
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#rodapeIcon img {
+  height: 25px;
+}
