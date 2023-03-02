@@ -21,14 +21,7 @@
 @media (min-width: 1601px) {
 }
 
-html body,
-ul,
-li,
-p,
-h1,
-h2,
-h3,
-h4 {
+* {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -47,7 +40,7 @@ a {
 }
 
 header {
-  background-color: #5a3e33;
+  background-color: #9c6644;
   margin: 0 auto;
   position: sticky;
   top: 0;
@@ -134,7 +127,7 @@ main {
 }
 
 .textHeadBtn {
-  background: #694d40;
+  background: #b08968;
   padding: 8px 25px;
   border-radius: 25px;
   border: none;
@@ -202,7 +195,7 @@ main {
 }
 
 .textMidBtn {
-  background-color: #694d40;
+  background-color: #b08968;
   padding: 8px 25px;
   border-radius: 25px;
   border: none;
@@ -258,7 +251,7 @@ span {
 }
 
 .itemsBtn {
-  background-color: #694d40;
+  background-color: #b08968;
   padding: 4px 12px;
   border-radius: 25px;
   border: none;
@@ -335,7 +328,7 @@ span {
 }
 
 footer {
-  background-color: #5a3e33;
+  background-color: #9c6644;
   margin: 0 auto;
   width: 100%;
 }
@@ -365,6 +358,7 @@ footer {
   height: 100px;
   width: 20%;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -384,4 +378,5 @@ footer {
 
 #rodapeIcon img {
   height: 25px;
+  width: auto;
 }
